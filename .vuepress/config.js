@@ -1,6 +1,7 @@
 const version = require("./../package.json").version;
 
 module.exports = {
+  port: 8001,
   title: `VuePress Examples ${version}`,
   description: "Examples of useful vuepress code",
   head: [
